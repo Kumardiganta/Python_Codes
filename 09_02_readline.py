@@ -1,0 +1,6 @@
+my_file = open("C:\\Users\\DIGANTA\\WORKSPACE\\PYTHON\\diganta.txt",'r')
+data=my_file.readline()
+print(data)
+data=my_file.readline()
+print(data)
+my_file.close()
